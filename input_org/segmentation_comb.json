@@ -1,0 +1,20 @@
+{
+
+    "image_path_layer_1" : "/mnt/data/patch/Abdomen/with_pad/concat_image/resampled/half_channel/layer_1/fold1",
+    "image_path_layer_2" : "/mnt/data/patch/Abdomen/with_pad/concat_image/resampled/half_channel/layer_2/fold1",
+    "image_path_thin" : "/mnt/data/patch/Abdomen/with_pad/128-128-8-1/resampled/rep_2/fold1",
+    "label_path" : "/mnt/data/patch/Abdomen/with_pad/512-512-32-1/resampled/rep_2/label",
+    "modelweightfile" : "/mnt/data/modelweight/Abdomen/comb/512-512-32-1/fold1/latest.pkl",
+    "image_original_path" : "/mnt/data/Abdomen",
+    "image_name" : "imaging_resampled.nii.gz",
+    "patch_size" : "512-512-32",
+    "plane_size" : "512-512",
+    "save_directory" : "$HOME/Desktop/data/patch/Abdomen/with_pad/512-512-32-1/resampled/rep_2/segmentation", 
+    "save_name" : "label.mha",
+    "overlap" : 1,
+    "num_rep" : 2,
+    "num_array" : ["00", "01", "02", "03", "04", "05", "06", "07", "08", "09"],
+    "log_file" : "fail/segmentation.txt",
+    "gpu_id" : 0
+}
+
