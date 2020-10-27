@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-from .model_part import *
+from model_part import *
 
 class BuildThinUNet(nn.Module):
     def __init__(self, in_channel, out_channel=64, use_bn=True, use_dropout=True):

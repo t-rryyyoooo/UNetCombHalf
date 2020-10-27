@@ -1,6 +1,6 @@
 import SimpleITK as sitk
 import numpy as np
-from .utils import *
+from utils import *
 from random import randint
 
 class Compose(object):

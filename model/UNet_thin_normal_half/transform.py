@@ -1,4 +1,4 @@
-from .preprocessing import Compose, LoadNumpys
+from preprocessing import Compose, LoadNumpys
 
 class UNetTransform():
     def __init__(self, translate_range=0., rotate_range=0., shear_range=0., scale_range=0.):

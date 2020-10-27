@@ -1,5 +1,5 @@
 import torch.utils.data as data
-from .utils import separateData
+from utils import separateData
 from pathlib import Path
 
 class UNetDataset(data.Dataset):
